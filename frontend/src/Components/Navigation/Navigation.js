@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import avatar from '../../img/avatar.png'
-import img from '../../img/Manish.jpg'
 import { signout } from '../../utils/Icons'
 import { menuItems } from '../../utils/menuItems'
 
@@ -10,7 +9,7 @@ function Navigation({active, setActive}) {
     return (
         <NavStyled>
             <div className="user-con">
-                <img src={img} alt="" />
+                <img src={avatar} alt="" />
                 <div className="text">
                     <h2>Manish Jadhav</h2>
                     <p>Track Your Money</p>
